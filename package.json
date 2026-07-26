@@ -1,0 +1,19 @@
+{
+  "name": "mist-relay-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy passthrough relay for the Anthropic API, on Cloudflare Workers",
+  "license": "MIT",
+  "repository": "github:plOrz/mist-relay-template",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260718.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.112.0"
+  }
+}
